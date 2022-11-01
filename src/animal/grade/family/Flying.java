@@ -27,6 +27,7 @@ public final class Flying extends Birds {
     }
 
     public void fly() {
+        System.out.println("летать");
 
     }
 

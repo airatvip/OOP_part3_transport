@@ -40,6 +40,10 @@ public class Main {
         System.out.println(peacock.equals(penguin));
         System.out.println(seagull instanceof Birds);
         System.out.println(seagull instanceof Flying);
+        peacock.eat();
+        peacock.go();
+        peacock.hunt();
+        peacock.sleep();
 
     }
 }

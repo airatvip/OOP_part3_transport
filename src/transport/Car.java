@@ -23,7 +23,7 @@ public class Car extends Transport {
         System.out.println("Можно заправлять бензином, дизелем на заправке или заряжать на специальных электропарковках, если это электрокар");
     }
 
-    public class Key {
+    public static class Key {
         private String remoteEngineStart;
         private String keylessAccess;
 

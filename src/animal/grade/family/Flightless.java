@@ -28,6 +28,7 @@ public final class Flightless extends Birds {
     }
 
     public void go () {
+        System.out.println("гулять");
 
     }
 

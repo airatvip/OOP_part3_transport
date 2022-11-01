@@ -24,16 +24,19 @@ public class Amphibians extends Animal {
     }
 
     public void hunt() {
+        System.out.println("перемещаться");
 
     }
 
     @Override
     public void eat() {
+        System.out.println("кушать");
 
     }
 
     @Override
     public void move() {
+        System.out.println("перемещаться");
 
     }
 

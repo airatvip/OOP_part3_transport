@@ -24,17 +24,20 @@ public abstract class Birds extends Animal {
     }
 
     public void hunt() {
+        System.out.println("охотиться");
 
     }
 
     @Override
     public void eat() {
+        System.out.println("кушать");
 
     }
 
 
     @Override
     public void move() {
+        System.out.println("перемещаться");
 
     }
 

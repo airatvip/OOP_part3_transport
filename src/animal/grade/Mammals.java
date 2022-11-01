@@ -38,15 +38,20 @@ public abstract class Mammals extends Animal {
 
 
     }
+    public void walk () {
+        System.out.println("гулять");
+    }
 
     @Override
     public void eat() {
+        System.out.println("кушать");
 
     }
 
 
     @Override
     public void move() {
+        System.out.println("перемещаться");
 
     }
 

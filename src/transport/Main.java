@@ -15,20 +15,20 @@ public class Main {
 //        System.out.println(hyundai.toString());
 
 
-        Car.Key ladaKey = lada.new Key("Нет", "Нет");
-        lada.setKey(ladaKey);
+        Car.Key key1 = new Car.Key("Нет", "Нет");
+        lada.setKey(key1);
 //        System.out.println(lada);
-        Car.Key audiKey = audi.new Key("Да", "Да");
-        audi.setKey(audiKey);
+        Car.Key key2 = new Car.Key("Да", "Да");
+        audi.setKey(key2);
 //        System.out.println(audi);
-        Car.Key bwmKey = bmw.new Key("Нет", "Да");
-        bmw.setKey(bwmKey);
+        Car.Key key3 = new Car.Key("Нет", "Да");
+        bmw.setKey(key3);
 //        System.out.println(bmw);
-        Car.Key kiaKey = kia.new Key("Да", "Нет");
-        kia.setKey(kiaKey);
+        Car.Key key4 = new Car.Key("Да", "Нет");
+        kia.setKey(key4);
 //        System.out.println(kia);
-        Car.Key hyundaiKey = hyundai.new Key("", "Нет");
-        hyundai.setKey(hyundaiKey);
+        Car.Key keyUnknown = new Car.Key("", "");
+        hyundai.setKey(keyUnknown);
 //        System.out.println(hyundai);
 
         Car.Insurance ladaIns = lada.new Insurance("21.09.2022", 5002.25, "МММ256321" );

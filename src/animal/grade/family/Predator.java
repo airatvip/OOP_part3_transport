@@ -29,6 +29,7 @@ public final class Predator extends Mammals {
     }
 
     public void hunt() {
+        System.out.println("охотиться");
 
     }
 
