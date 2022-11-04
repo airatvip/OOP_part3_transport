@@ -51,7 +51,7 @@ public class Car extends Transport {
         }
     }
 
-    public class Insurance {
+    public static class Insurance {
 
         private String validityPeriodInsurance;
 
@@ -103,14 +103,14 @@ public class Car extends Transport {
 //                System.out.println(date);
 //                System.out.println(LocalDate.now());
             if (date.isBefore(LocalDate.now())) {
-                System.out.println(getBrand() + " " + getModel() + " " + "Нужно оформить новую страховку");
+                System.out.println("Нужно оформить новую страховку");
             }
         }
 
         public void checkingTheNumber() {
 //            if (numberInsurance.matches(".{9}")) {
             if (getNumberInsurance().length() == 8) {
-            } else System.out.println(getBrand() + " " + getModel() + " " + "Номер страховки некорректный");
+            } else System.out.println("Номер страховки некорректный");
         }
     }
 
